@@ -1,0 +1,40 @@
+{
+	"name": "FCC Socket",
+	"author": "http://github.com/peteretherington",
+	"version": "0.0.1",
+	"description": "freeCodeCamp app",
+	"main": "server.js",
+	"scripts": {
+		"start": "nodemon server.js"
+	},
+	"dependencies": {
+		"body-parser": "^1.16.0",
+		"cookie-parser": "^1.4.3",
+		"cors": "^2.8.1",
+		"dotenv": "^8.2.0",
+		"express": "^4.14.1",
+		"express-session": "^1.15.0",
+		"helmet": "^3.4.0",
+		"mongodb": "^2.2.22",
+		"nodemon": "^2.0.3",
+		"passport": "^0.3.2",
+		"passport-github": "^1.1.0",
+		"passport-local": "^1.0.0",
+		"passport.socketio": "^3.7.0",
+		"pug": "^0.1.0",
+		"socket.io": "^1.7.2"
+	},
+	"engines": {
+		"node": "12.14.1"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/peteretherington/socketio.git"
+	},
+	"keywords": [
+		"node",
+		"hyperdev",
+		"express"
+	],
+	"license": "MIT"
+}
