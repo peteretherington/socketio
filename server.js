@@ -16,6 +16,9 @@ const http = require('http').Server(app);
 const sessionStore = new session.MemoryStore();
 const io = require('socket.io')(http);
 
+const cors = require('cors');
+app.use(cors());
+
 fccTesting(app); //For FCC testing purposes
 
 app.use('/public', express.static(process.cwd() + '/public'));
