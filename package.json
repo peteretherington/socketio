@@ -1,5 +1,5 @@
 {
-	"name": "FCC Socket",
+	"name": "socketio",
 	"author": "http://github.com/peteretherington",
 	"version": "0.0.1",
 	"description": "freeCodeCamp app",
@@ -22,7 +22,7 @@
 		"passport-local": "^1.0.0",
 		"passport.socketio": "^3.7.0",
 		"pug": "^0.1.0",
-		"socket.io": "^1.7.2"
+		"socket.io": "^2.3.0"
 	},
 	"engines": {
 		"node": "12.14.1"
